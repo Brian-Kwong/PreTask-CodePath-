@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="PreTask" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" clipsSubviews="YES" contentMode="center" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Kwong Brian" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jlh-8H-qsx">
+                                <rect key="frame" x="59" y="105" width="275" height="43"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="43" id="qQP-WO-Rd6"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="16"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CalPoly SLO" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YRq-Zj-umv">
+                                <rect key="frame" x="59" y="145" width="275" height="43"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="43" id="Nam-dD-Pdo"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="16"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Video Game Developer" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7NI-ty-e3b">
+                                <rect key="frame" x="59" y="183" width="275" height="43"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="43" id="qcV-29-xHe"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="16"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VOz-rl-7Tl">
+                                <rect key="frame" x="133" y="289" width="127" height="102"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="tinted">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="CLICK ME !">
+                                            <attributes>
+                                                <font key="NSFont" size="12" name="ComicSansMS"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                    <color key="baseForegroundColor" systemColor="systemPinkColor"/>
+                                    <color key="baseBackgroundColor" systemColor="systemCyanColor"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="changeBackgroundColor:" destination="BYZ-38-t0r" eventType="touchUpInside" id="HAH-bM-OoG"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemGray6Color"/>
+                        <color key="tintColor" systemColor="systemCyanColor"/>
+                        <constraints>
+                            <constraint firstItem="7NI-ty-e3b" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="5e6-RG-McY"/>
+                            <constraint firstItem="jlh-8H-qsx" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="46" id="7Mz-gI-hJM"/>
+                            <constraint firstItem="VOz-rl-7Tl" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="7mG-m8-uop"/>
+                            <constraint firstItem="YRq-Zj-umv" firstAttribute="trailing" secondItem="7NI-ty-e3b" secondAttribute="trailing" id="ECm-NK-Xxb"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="VOz-rl-7Tl" secondAttribute="bottom" constant="341" id="VwS-Ld-V6p"/>
+                            <constraint firstItem="YRq-Zj-umv" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="86" id="d83-Qy-VmX"/>
+                            <constraint firstItem="7NI-ty-e3b" firstAttribute="top" secondItem="jlh-8H-qsx" secondAttribute="bottom" constant="35" id="g2O-bm-cOc"/>
+                            <constraint firstItem="VOz-rl-7Tl" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="133" id="n6C-fK-uex"/>
+                            <constraint firstItem="7NI-ty-e3b" firstAttribute="leading" secondItem="jlh-8H-qsx" secondAttribute="leading" id="nAu-vk-RTY"/>
+                            <constraint firstItem="YRq-Zj-umv" firstAttribute="leading" secondItem="7NI-ty-e3b" secondAttribute="leading" id="nbV-p1-ec9"/>
+                            <constraint firstItem="7NI-ty-e3b" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="59" id="w2X-hU-JiN"/>
+                            <constraint firstItem="7NI-ty-e3b" firstAttribute="centerX" secondItem="VOz-rl-7Tl" secondAttribute="centerX" id="y2j-UX-kUb"/>
+                            <constraint firstItem="7NI-ty-e3b" firstAttribute="trailing" secondItem="jlh-8H-qsx" secondAttribute="trailing" id="zgm-w1-Wm0"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="32.824427480916029" y="-27.464788732394368"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemCyanColor">
+            <color red="0.19607843137254902" green="0.67843137254901964" blue="0.90196078431372551" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemGray6Color">
+            <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemPinkColor">
+            <color red="1" green="0.17647058823529413" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
