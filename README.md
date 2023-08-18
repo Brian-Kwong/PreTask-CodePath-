@@ -40,7 +40,7 @@ Favorite Applications:
 
 
 Some applications I would like to build throughout this course include a short mobile game 
-similar to that of 2048 or Crossy Road, a messaging app like Discord or Facebook Messanger or 
+similar to that of 2048 or Crossy Road, a messaging app like Discord/Facebook Messanger or 
 a new mapping application that helps new students learn more about our university : D
 
 ## Notes
